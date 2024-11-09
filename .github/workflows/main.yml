@@ -16,7 +16,7 @@ jobs:
       shell: powershell
       run: |
        Expand-Archive mupdf.zip -DestinationPath .\
-       move mupdf-1.18.0-windows\mutool.exe .\
+       move mupdf-1.24.0-windows\mutool.exe .\
     - name: process caj
       shell: cmd
       run: |

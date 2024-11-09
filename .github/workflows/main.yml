@@ -11,7 +11,7 @@ jobs:
       run: |
        pip install pypdf2
        pip install imagesize
-       curl https://mupdf.com/downloads/archive/mupdf-1.18.0-windows.zip -o mupdf.zip -L
+       curl https://mupdf.com/downloads/archive/mupdf-1.24.0-windows.zip -o mupdf.zip -L
     - name: preload env ps
       shell: powershell
       run: |
